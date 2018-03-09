@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="#FFFFE0"
+    >
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="@string/takePhoto"
+        android:id="@+id/takePhoto_btn"
+        style="@style/photo_btn_theme"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="@string/choosePhoto"
+        android:layout_below="@id/takePhoto_btn"
+        android:id="@+id/choosePhoto_btn"
+        style="@style/photo_btn_theme"
+        android:layout_marginTop="7dp"
+        />
+</RelativeLayout>

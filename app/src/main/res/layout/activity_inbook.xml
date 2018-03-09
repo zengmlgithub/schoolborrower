@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFE4B5"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_ll"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:text="@string/book_name"
+            style="@style/item_text_theme"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_et"
+            style="@style/item_text_theme"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/publish_ll"
+        android:gravity="center_vertical"
+        android:layout_below="@id/name_ll"
+        >
+        <TextView
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:text="@string/publish_tv"
+            style="@style/item_text_theme"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/publish_et"
+            style="@style/item_text_theme"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/author_ll"
+        android:gravity="center_vertical"
+        android:layout_below="@id/publish_ll"
+        >
+        <TextView
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:text="@string/author_upload_tv"
+            style="@style/item_text_theme"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/author_et"
+            style="@style/item_text_theme"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_eeeeee"
+        android:layout_marginTop="7dp"
+        android:layout_below="@id/author_ll"
+        android:id="@+id/line"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/checkout_txt"
+        android:id="@+id/checkout_btn"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        style="@style/item_button_theme"
+        />
+</RelativeLayout>
