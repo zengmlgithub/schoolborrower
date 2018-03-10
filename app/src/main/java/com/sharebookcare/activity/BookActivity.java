@@ -24,7 +24,6 @@ public class BookActivity extends BaseActivity implements AllBookContract.View {
 
     private ListView bookRv;
     private BookAdapter adapter;
-    private AllBookContract.Presenter presenter;
     private ArrayList<Book> books;
     private String title;
 

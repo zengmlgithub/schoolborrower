@@ -22,7 +22,7 @@ import java.util.List;
 
 
 public class MyInBookAdapter extends BaseAdapter implements MyInBookContract.View {
-    private static final String TAG = "bookadapter";
+    private static final String TAG = MyInBookAdapter.class.getCanonicalName();
 
     private List<Book> bookList = new ArrayList<>();
     private Context context;
