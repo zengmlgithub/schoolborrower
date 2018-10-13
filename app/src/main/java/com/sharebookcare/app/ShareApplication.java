@@ -11,6 +11,8 @@ import cn.bmob.v3.BmobConfig;
 public class ShareApplication extends Application {
 
     private static ShareApplication app;
+    
+    //this is my application
 
     public static ShareApplication getInstance(){
         return app;
