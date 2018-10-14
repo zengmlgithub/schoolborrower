@@ -1,9 +1,10 @@
-package com.sharebookcare.bean;
+﻿package com.sharebookcare.bean;
 
 import cn.bmob.v3.BmobObject;
 import cn.bmob.v3.BmobUser;
 
 
+//this is my book bean
 public class Book extends BmobObject {
 
     private String title;
